@@ -84,6 +84,9 @@ function registerErrorRouter () {
       })
     } else {
       res.status(500)
+      res.json({
+        msg: `hello world123456789`
+      })
       res.end()
     }
   })
